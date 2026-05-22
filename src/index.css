@@ -164,6 +164,40 @@ body {
   color: #0A2540;
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
+  padding-top: 72px;
+}
+
+@media (max-width: 991.98px) {
+  body {
+    padding-top: 88px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body {
+    padding-top: 96px;
+  }
+}
+
+section,
+[id] {
+  scroll-margin-top: 72px;
+}
+
+@media (max-width: 991.98px) {
+
+  section,
+  [id] {
+    scroll-margin-top: 88px;
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  section,
+  [id] {
+    scroll-margin-top: 96px;
+  }
 }
 
 h1,
@@ -175,7 +209,7 @@ h4,
 }
 
 .text-brand-orange {
-  color: #FF5C00 !important;  
+  color: #FF5C00 !important;
 }
 
 .bg-brand-blue {
